@@ -22,11 +22,11 @@ Voici un schéma illustrant l'architecture générale.
 
 ## Fichiers du Projet
 
-- **[graph_commente.php](chemin/vers/graph_commente.php)** : Ce fichier PHP génère des graphes basés sur les données récupérées depuis la base de données.
-- **[publish.py](chemin/vers/publish.py)** : Ce script Python permet de publier des données sur le serveur MQTT.
-- **[sub_test.py](chemin/vers/sub_test.py)** : Ce script Python souscrit aux messages envoyés via MQTT et les stocke dans une base de données.
-- **[database.sql](chemin/vers/database.sql)** : Script SQL pour la création de la base de données principale.
-- **[database.sqlite](chemin/vers/database.sqlite)** : Fichier de base de données SQLite pour le stockage local des données.
+- **[graph_commente.php](graph_commente.php)** : Ce fichier PHP génère des graphes basés sur les données récupérées depuis la base de données.
+- **[publish.py](publish.py)** : Ce script Python permet de publier des données sur le serveur MQTT.
+- **[sub_test.py](sub_test.py)** : Ce script Python souscrit aux messages envoyés via MQTT et les stocke dans une base de données.
+- **[database.sql](database.sql)** : Script SQL pour la création de la base de données principale.
+- **[database.sqlite](database.sqlite)** : Fichier de base de données SQLite pour le stockage local des données.
 
 ## Instructions d'Installation
 
